@@ -2,7 +2,6 @@
 import {compilerType, SolcCompiler} from './solcCompiler';
 import Linter from './linter/linter';
 import SolhintService from './linter/solhint';
-import SoliumService from './linter/solium';
 import {CompilerError} from './solErrorsToDiagnostics';
 import {CompletionService, GetCompletionTypes,
         GetContextualAutoCompleteByGlobalVariable, GeCompletionUnits,
@@ -219,7 +218,6 @@ connection.onDidChangeConfiguration((change) => {
     compileUsingLocalVersion = settings.solidity.compileUsingLocalVersion;
     compileUsingRemoteVersion = settings.solidity.compileUsingRemoteVersion;
     solhintDefaultRules = settings.solidity.solhintRules;
-    soliumDefaultRules = settings.solidity.soliumRules;
     validationDelay = settings.solidity.validationDelay;
     nodeModulePackage = settings.solidity.nodemodulespackage;
     defaultCompiler = compilerType[settings.solidity.defaultCompiler];
@@ -229,10 +227,6 @@ connection.onDidChangeConfiguration((change) => {
     switch (linterName(settings.solidity)) {
         case 'solhint': {
             linter = new SolhintService(rootPath, solhintDefaultRules);
-            break;
-        }
-        case 'solium': {
-            linter = new SoliumService(rootPath, soliumDefaultRules, connection);
             break;
         }
         default: {
