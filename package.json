@@ -15,12 +15,12 @@
     "vscode": "^1.50.1"
   },
   "bugs": {
-    "url": "https://github.com/TAN-ZIXUAN/vscode-solidity/issues"
+    "url": "https://github.com/TAN-ZIXUAN/vscode-solidity-lite/issues"
   },
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TAN-ZIXUAN/vscode-solidity"
+    "url": "https://github.com/TAN-ZIXUAN/vscode-solidity-lite"
   },
   "categories": [
     "Programming Languages",
