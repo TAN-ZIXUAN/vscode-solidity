@@ -6,5 +6,13 @@
  * @Description: 
  * @FilePath: /solidity-lite/README.md
 -->
-lite version for solidity extension
-clean context menu
+# Solidity-lite
+Many thanks to Juanfranblanco for the vscode extension https://github.com/juanfranblanco/vscode-solidity.
+
+This is the lite version of the solidity extension, created mainly for personal use.
+It removed the following unnecessary functionalities.
+- It cleared the context menu. The orginal solidity extension has taken too much in the context menu.
+- It removed the contract compilation function. We all have tools like `truffle` or `hardhat` for compiling contracts. No need to keep this part. 
+- It removed the code generation.
+
+
