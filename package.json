@@ -8,8 +8,8 @@
     "compiler",
     "solhint"
   ],
-  "version": "0.0.7",
-  "publisher": "tanzx",
+  "version": "0.0.1",
+  "publisher": "tanzx97",
   "license": "MIT",
   "engines": {
     "vscode": "^1.50.1"
