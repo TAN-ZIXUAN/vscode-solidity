@@ -8,19 +8,19 @@
     "compiler",
     "solhint"
   ],
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "tanzx",
   "license": "MIT",
   "engines": {
     "vscode": "^1.50.1"
   },
   "bugs": {
-    "url": "https://github.com/juanfranblanco/vscode-solidity/issues"
+    "url": "https://github.com/TAN-ZIXUAN/vscode-solidity/issues"
   },
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/juanfranblanco/vscode-solidity"
+    "url": "https://github.com/TAN-ZIXUAN/vscode-solidity"
   },
   "categories": [
     "Programming Languages",
